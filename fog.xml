@@ -1,48 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="github" fetch="https://github.com/" />
-  <remote name="gitlab" fetch="https://gitlab.com/" />
+
+  <remote name="foggithub"
+          fetch="https://github.com/" />
+
+  <remote name="foggitlab"
+          fetch="https://gitlab.com/" />
 
   <!-- Vendor tree -->
   <project name="alternoegraha/vendor_xiaomi_fog"
            path="vendor/xiaomi/fog"
-           remote="github"
+           remote="foggithub"
            revision="baklava-and-beyond" />
 
   <!-- Device tree -->
   <project name="Romeo13card/device_xiaomi_fog"
            path="device/xiaomi/fog"
-           remote="github"
+           remote="foggithub"
            revision="lineage-23.2" />
 
   <!-- Prebuilt kernel -->
   <project name="Romeo13card/device_xiaomi_fog-kernel"
            path="device/xiaomi/fog-kernel"
-           remote="github"
+           remote="foggithub"
            revision="neutron" />
 
   <!-- LineageOS hardware/xiaomi -->
   <project name="LineageOS/android_hardware_xiaomi"
            path="hardware/xiaomi"
-           remote="github"
+           remote="foggithub"
            revision="lineage-23.2" />
 
   <!-- MIUI Camera -->
   <project name="ThankYouMario/proprietary_vendor_xiaomi_camera"
            path="vendor/xiaomi/camera"
-           remote="gitlab"
+           remote="foggitlab"
            revision="vauxite-sm6225" />
 
   <!-- Dolby Atmos -->
   <project name="swiitch-OFF-Lab/packages_apps_DolbyUI"
            path="packages/apps/DolbyUI"
-           remote="github"
+           remote="foggithub"
            revision="16.0"
            clone-depth="1" />
 
   <project name="swiitch-OFF-Lab/hardware_dolby"
            path="hardware/dolby"
-           remote="github"
+           remote="foggithub"
            revision="sony-1.5"
            clone-depth="1" />
 
