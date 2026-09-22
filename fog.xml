@@ -14,7 +14,7 @@
            revision="baklava-and-beyond" />
 
   <!-- Device tree -->
-  <project name="Romeo13card/device_xiaomi_fog"
+  <project name="XephiraOS-Devices/device_xiaomi_fog"
            path="device/xiaomi/fog"
            remote="foggithub"
            revision="lineage-23.2" />
